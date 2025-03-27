@@ -1,0 +1,205 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f8f8f8, #ffffff);
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  flex: 1;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  background: linear-gradient(45deg, #B76E79, #C38B94);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.primary-btn {
+  background: #B76E79;
+  color: white;
+  border: none;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #B76E79;
+  color: #B76E79;
+}
+
+.hero-3d {
+  flex: 1;
+  height: 600px;
+}
+.featured-artists, .categories-section {
+  padding: 4rem 5%;
+}
+.artists-grid, .categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.artist-card, .category-card {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.artist-card:hover, .category-card:hover {
+  transform: translateY(-5px);
+}
+.artist-image-placeholder {
+  width: 150px;
+  height: 150px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+.category-card {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #B76E79, #C38B94);
+  color: white;
+}
+.user-type-selection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f8f8f8, #ffffff);
+}
+
+.selection-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.selection-buttons button {
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #B76E79;
+  color: white;
+  border: none;
+}
+
+.selection-buttons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(183, 110, 121, 0.3);
+}
+
+.products-container {
+  padding: 2rem 5%;
+}
+
+.no-products {
+  text-align: center;
+  padding: 4rem 0;
+  color: #555;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.product-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+/* Add these navbar styles to your existing CSS */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav-brand a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #B76E79;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #B76E79;
+}
+
+.nav-btn {
+  padding: 8px 20px;
+  background: #B76E79;
+  color: white !important;
+  border-radius: 20px;
+}
+
+.nav-btn:hover {
+  background: #a25964;
+}

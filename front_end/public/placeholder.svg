@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" version="1.1" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+ <rect width="400" height="400" fill="#f3f4f6"/>
+ <g transform="translate(100,100)">
+  <path d="m100 50c0-27.614-22.386-50-50-50s-50 22.386-50 50 22.386 50 50 50 50-22.386 50-50zm-90 0c0-22.091 17.909-40 40-40s40 17.909 40 40-17.909 40-40 40-40-17.909-40-40z" fill="#9ca3af"/>
+  <path d="m200 200h-200v-30l45-45 22.5 22.5 67.5-67.5 65 65z" fill="#9ca3af"/>
+ </g>
+ <text x="200" y="350" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="24">Image Not Available</text>
+</svg>

@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #5C3D2E;
+  --secondary-color: #B85C38;
+  --background-color: #FFFFFF;
+  --modal-bg: #FFFFFF;
+  --text-color: #2D2424;
+  --text-light: #4A4A4A;
+  --input-bg: #FFFFFF;
+  --input-text: #2D2424;
+}
+
+.dark {
+  --primary-color: #2D2424;
+  --secondary-color: #5C3D2E;
+  --background-color: #1F1F1F;
+  --modal-bg: #2D2D2D;
+  --text-color: #E0C097;
+  --text-light: #D1D1D1;
+  --input-bg: #3D3D3D;
+  --input-text: #FFFFFF;
+}
+.perspective {
+  perspective: 1000px;
+}

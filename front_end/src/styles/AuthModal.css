@@ -1,0 +1,52 @@
+.auth-input {
+  @apply w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all;
+  @apply dark:bg-gray-700 dark:border-gray-600 dark:text-white;
+}
+
+.auth-button {
+  @apply w-full py-3 rounded-lg transition-all transform hover:scale-105 shadow-lg text-lg font-medium;
+  @apply bg-gradient-to-r from-orange-500 to-pink-500 text-white;
+  @apply hover:from-orange-600 hover:to-pink-600;
+}
+
+.social-button {
+  @apply w-full flex items-center justify-center space-x-2 py-3 border rounded-lg transition-all hover:bg-gray-50 dark:hover:bg-gray-700;
+  @apply dark:border-gray-600;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+}
+.auth-input {
+  @apply w-full px-5 py-4 border rounded-xl;
+  @apply bg-white dark:bg-gray-700;
+  @apply text-gray-800 dark:text-white;
+  @apply border-gray-300 dark:border-gray-600;
+  @apply focus:outline-none focus:ring-2 focus:ring-orange-500;
+  @apply placeholder-gray-500 dark:placeholder-gray-400;
+  @apply transition-all text-lg;
+}
+
+.auth-button {
+  @apply w-full bg-orange-500 text-white;
+  @apply py-4 rounded-xl;
+  @apply transition-all transform hover:scale-105;
+  @apply shadow-lg text-lg font-medium;
+  @apply hover:bg-orange-600;
+}
+
+.social-button {
+  @apply w-full flex items-center justify-center;
+  @apply py-3 border rounded-lg;
+  @apply text-gray-700 dark:text-gray-200;
+  @apply border-gray-300 dark:border-gray-600;
+  @apply hover:bg-gray-50 dark:hover:bg-gray-700;
+  @apply transition-all;
+}
