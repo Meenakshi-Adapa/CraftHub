@@ -85,11 +85,18 @@ git clone https://github.com/your-username/crafthub.git
 cd crafthub
 cd backend
 npm install
+```
+## 📸 Screenshots
 
-<img width="1890" height="870" alt="Screenshot 2025-03-10 113532" src="https://github.com/user-attachments/assets/906cc921-4374-465f-889a-06af28299532" />
-<img width="1885" height="913" alt="Screenshot 2025-03-10 113633" src="https://github.com/user-attachments/assets/bed57480-5fc3-4d98-a14d-42203fa2fdbd" />
-<img width="1874" height="896" alt="Screenshot 2025-03-18 150412" src="https://github.com/user-attachments/assets/be894c3a-d54f-4c34-9105-09a6df4663f8" />
-<img width="1884" height="879" alt="Screenshot 2025-03-10 113619" src="https://github.com/user-attachments/assets/9d245317-d040-479a-9e55-bc0047a62e73" />
+### 🔹 Buyer Home Page
+<img width="100%" alt="Screenshot 2025-03-10 113532" src="https://github.com/user-attachments/assets/906cc921-4374-465f-889a-06af28299532" />
 
+### 🔹 Product View
+<img width="100%" alt="Screenshot 2025-03-10 113633" src="https://github.com/user-attachments/assets/bed57480-5fc3-4d98-a14d-42203fa2fdbd" />
 
+### 🔹 Artist Dashboard
+<img width="100%" alt="Screenshot 2025-03-18 150412" src="https://github.com/user-attachments/assets/be894c3a-d54f-4c34-9105-09a6df4663f8" />
+
+### 🔹 Live Workshop View
+<img width="100%" alt="Screenshot 2025-03-10 113619" src="https://github.com/user-attachments/assets/9d245317-d040-479a-9e55-bc0047a62e73" />
 
