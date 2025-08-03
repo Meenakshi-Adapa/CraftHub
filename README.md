@@ -85,9 +85,3 @@ git clone https://github.com/your-username/crafthub.git
 cd crafthub
 cd backend
 npm install
-# Add your .env file
-Setup Backend
-npm start
-cd frontend
-npm install
-npm start
